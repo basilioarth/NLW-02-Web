@@ -5,15 +5,15 @@ O repositório tem como objetivo registrar o conhecimento obtido durante toda a 
 # :computer: Estado atual do projeto
 
 ## Home
-![Screenshot](assets/versions/home-web-desktop.PNG)
-![Screenshot](assets/versions/home-web-smartphone.PNG)
+![Screenshot](src/assets/versions/home-web-desktop.PNG)
+![Screenshot](src/assets/versions/home-web-smartphone.PNG)
 
 ## Estudar
-![Screenshot](assets/versions/study-web-desktop.PNG)
-![Screenshot](assets/versions/study-web-smartphone-1.PNG)
-![Screenshot](assets/versions/study-web-smartphone-2.PNG)
+![Screenshot](src/assets/versions/study-web-desktop.PNG)
+![Screenshot](src/assets/versions/study-web-smartphone-1.PNG)
+![Screenshot](src/assets/versions/study-web-smartphone-2.PNG)
 
 ## Dar aula
-![Screenshot](assets/versions/give-classes-web-desktop.PNG)
-![Screenshot](assets/versions/give-classes-web-smartphone.PNG)
+![Screenshot](src/assets/versions/give-classes-web-desktop.PNG)
+![Screenshot](src/assets/versions/give-classes-web-smartphone.PNG)
 
