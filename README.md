@@ -4,20 +4,20 @@ O repositório tem como objetivo registrar o conhecimento obtido durante toda a 
 
 # :computer: Estado atual do projeto
 
-## Home_web
+## Landing_web
 ### Desktop
 ![Screenshot](src/assets/versions/home-web-desktop.PNG)
 ### Smartphone
 ![Screenshot](src/assets/versions/home-web-smartphone.PNG)
 
-## Estudar_web
+## TeacherList_web
 ### Desktop
 ![Screenshot](src/assets/versions/study-web-desktop.PNG)
 ### Smartphone
 ![Screenshot](src/assets/versions/study-web-smartphone-1.PNG)
 ![Screenshot](src/assets/versions/study-web-smartphone-2.PNG)
 
-## Dar aula_web
+## TeacherForm_web
 ### Desktop
 ![Screenshot](src/assets/versions/give-classes-web-desktop.PNG)
 ### Smartphone
