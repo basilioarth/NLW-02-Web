@@ -7,6 +7,10 @@ import './styles.css';
 
 interface PageHeaderProps {
     title: string;
+    description?: string;
+    // Forma de dizer que essa propriedade não é obrigatória. 
+    // Isso nos possibilita que, das páginas que se utilizam desse componente,
+    // algumas façam uso dessa propriedade, outras não façam.
 }
 
 const  PageHeader: React.FunctionComponent<PageHeaderProps> = (props) => {
@@ -26,7 +30,19 @@ const  PageHeader: React.FunctionComponent<PageHeaderProps> = (props) => {
 
             <div className="header-content">
                 <strong>{props.title}</strong>
+                { props.description && <p>{props.description}</p>}
+                {/* Maneira de fazermos um condicional dentro do JSX.
+                Dentro do JSX, quando se tem o operador && envolvendo um
+                condicional ou um laço de repetiçãO, o código após o &&
+                só será executando se o anterior a ele for truthy (verdadeiro),
+                ou seja, não é 0, null, vazio etc.
                 
+                Maneira alternativa de fazermos o mesmo condicional: 
+                { props.description ? <p>{props.description}</p> : null}
+                Se o props.description existir, ele é renderizado. Caso contrário, passa-se um null 
+                */
+                }
+
                 {props.children}
             </div>
 

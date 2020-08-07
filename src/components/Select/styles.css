@@ -1,0 +1,44 @@
+.select-block {
+    position: relative;
+}
+
+.select-block + .select-block {
+    /* para todo select block que tenha um select block antes dele: */
+    margin-top: 1.4rem;
+}
+
+.select-block label {
+    font-size: 1.4rem;
+}
+
+.select-block select {
+    width: 100%;
+    height: 5.6rem;
+    margin-top: 0.8rem;
+    border-radius: 0.8rem;
+    background: var(--color-select-background);
+    border: 1px solid var(--color-line-in-white);
+    outline: 0;
+    padding: 1.6rem;
+    font: 1.6rem Archivo;
+}
+
+.select-block:focus-within::after {
+    /* 
+    .select-block:focus-within:
+     Estiliza o select-block caso dentro dele tenha um select que esteja em focus
+    ::after:
+    Insere um elemento no final do select-block quando o select dentro dele estiver com focus
+    */
+
+    width: calc(100% - 3.2rem);
+    height: 2px;
+    content: ''; 
+    /* colocamos aqui só pq é obrigatório quando se usa o after e o before se não n aparece
+    nada na tela*/
+    background: var(--color-primary-light);
+    position: absolute;
+    left: 1.6rem;
+    right: 1.6rem;
+    bottom: 0;
+}
