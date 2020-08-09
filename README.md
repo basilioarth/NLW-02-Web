@@ -2,24 +2,32 @@
 
 O repositório tem como objetivo registrar o conhecimento obtido durante toda a semana. Todos os códigos envolvidos estão comentados de maneira a se extrair o máximo de informação possível das aulas.
 
-# :computer: Estado atual do projeto
+# :computer: Pages
 
-## Landing_web
-### Desktop
-![Screenshot](src/assets/versions/home-web-desktop.PNG)
-### Smartphone
-![Screenshot](src/assets/versions/home-web-smartphone.PNG)
+## Landing
+### 1440x900
+![Screenshot](src/assets/prints/Landing_1440x900.PNG)
+### 375x667
+![Screenshot](src/assets/prints/Landing_375x667.PNG)
 
-## TeacherList_web
-### Desktop
-![Screenshot](src/assets/versions/study-web-desktop.PNG)
-### Smartphone
-![Screenshot](src/assets/versions/study-web-smartphone-1.PNG)
-![Screenshot](src/assets/versions/study-web-smartphone-2.PNG)
+## TeacherForm
+### 1440x900
+![Screenshot](src/assets/prints/TeacherFrom_1440x900_1.PNG)
+![Screenshot](src/assets/prints/TeacherFrom_1440x900_2.PNG)
+![Screenshot](src/assets/prints/TeacherFrom_1440x900_3.PNG)
+### 375x667
+![Screenshot](src/assets/prints/TeacherFrom_375x667_1.PNG)
+![Screenshot](src/assets/prints/TeacherFrom_375x667_2.PNG)
+![Screenshot](src/assets/prints/TeacherFrom_375x667_3.PNG)
 
-## TeacherForm_web
-### Desktop
-![Screenshot](src/assets/versions/give-classes-web-desktop.PNG)
-### Smartphone
-![Screenshot](src/assets/versions/give-classes-web-smartphone.PNG)
+## TeacherList
+### 1440x900
+![Screenshot](src/assets/prints/TeacherList_1440x900_1.PNG)
+![Screenshot](src/assets/prints/TeacherList_1440x900_2.PNG)
+![Screenshot](src/assets/prints/TeacherList_1440x900_3.PNG)
+### 375x667
+![Screenshot](src/assets/prints/TeacherList_375x667_1.PNG)
+![Screenshot](src/assets/prints/TeacherList_375x667_2.PNG)
+![Screenshot](src/assets/prints/TeacherList_375x667_3.PNG)
+
 
